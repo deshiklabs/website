@@ -1,0 +1,115 @@
+.navbar{
+    padding: 10px 0;
+}
+
+.overlap-bottom{
+    padding-bottom: 6em;
+    margin-bottom: -9em;
+}
+
+.grayimage{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        width: 100%;
+}
+
+.hover-gray:hover{
+        -webkit-filter: invert(100%);
+        filter:invert(100%);
+}
+
+
+.roundedimage{
+    border-radius: 25px;
+}
+
+.particles-js-canvas-el{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.navbar{
+    background: transparent;
+}
+
+.services-columns .column{
+    padding: 30px 5px; 
+    padding-bottom: 50px;
+    border-right:1px #ddd solid; 
+    border-bottom: 1px #ddd solid; 
+}
+.services-columns .column.end{
+    border-right:0px #ddd solid; 
+}
+
+
+.padding-top-bottom-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.margin-10{
+    margin:10px;
+}
+.pad-10{
+    padding: 10px;
+}
+
+.social-icons{
+    padding: 2em 0;
+}
+.social-icons .button{
+    border-radius:100%; height: 47px; width: 47px;
+    margin:0 10px;
+}
+
+.video-container {
+    position:relative;
+    padding-bottom:40.25%;
+    padding-top:10px;
+    height:0;
+    overflow:hidden;
+  }
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:10%;
+    width:80%;
+    height:100%;
+
+}
+
+.tab-content1 {
+    display: none;
+}
+.tab-content2 {
+    display: none;
+}
+
+.other-content{
+    display: none;
+    padding: 20px;
+}
+
+.other-link{
+    z-index:1;
+    margin: 5px;
+}
+.other-section{
+    background-position: center;
+    transition: background 0.5s linear;
+}
+
+.speciality-section{
+    background-position: center;
+    background-size: cover;
+    transition: background 0.5s linear;
+}
+
+input:-webkit-autofill{
+    background: #fff!important;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}

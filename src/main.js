@@ -1,18 +1,10 @@
-import Vue from 'vue'
-import App from './App.vue'
-import './registerServiceWorker'
-import router from './router'
+import App from './App.svelte';
+// import 'bulma/css/bulma.css'
 
-import Vuesax from 'vuesax'
 
-import 'vuesax/dist/vuesax.css' //Vuesax styles
-Vue.use(Vuesax, {
-  // options here
-})
 
-Vue.config.productionTip = false
+const app = new App({
+	target: document.body,
+});
 
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+export default app;
